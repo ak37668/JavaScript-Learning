@@ -22,7 +22,7 @@
     var num3 = (num1 + num2);
     console.log(num3);
     
-    //strings
+    //5. strings
     let carName1 = "hundai i20";  // Double quotes
     let carName2 = 'balano'; 
     console.log(carName1 , carName2);
