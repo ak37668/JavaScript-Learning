@@ -20,7 +20,7 @@ html, body {
   
   #logo {
     background-image: url('logo.png');
-    background-size: 245px auto;
+    background-size: 2px auto;
     background-repeat: no-repeat;
   
     width:280px;
