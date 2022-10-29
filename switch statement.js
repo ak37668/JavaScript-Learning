@@ -1,4 +1,8 @@
 //=== comparision
+alert("page is live")
+let input;
+
+input = "n"
 
 switch(input){
     case 1: //if(input=== 1)
@@ -21,6 +25,6 @@ switch(input){
     document.write("End...");
     break;
 
-    case 0: // wrong input
+    default : // wrong input
     document.write("Wrong Input")
 }
