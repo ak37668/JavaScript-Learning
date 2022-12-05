@@ -8,7 +8,7 @@ let bookswithpages =[
     ["physcis", "350"],
     ["chemistry", "480"],
     ["computer science", "450"]
-]
+] 
 
 let fetch = bookswithpages[4][0];
 console.log(fetch);
