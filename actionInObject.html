@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action for Obejct</title>
+</head>
+<body>
+    <script>
+        let person = {
+            firstName : "Ashok",
+            lastName : "Meena",
+            Work : "Developer",
+
+            // 3rd method for declaring a function for action in objects
+
+            sayHello : function (){
+                console.log('Hello from this side who is there for seeing this msg !')
+            }
+        }
+        person.age = 26;
+
+
+        // 1st menthod to declaring a function 
+
+        // person.sayHello = function(){    // declearing an anonynomus function
+        //     console.log('Hello');
+        // }
+
+        // person.sayHello();
+
+
+
+
+        // 2nd method for declearing a function
+
+        // function greet (){
+        //     console.log("Hello !");
+        // }
+
+        // person.sayHello = greet;
+
+        person.sayHello();
+
+
+    </script>
+</body>
+</html>
